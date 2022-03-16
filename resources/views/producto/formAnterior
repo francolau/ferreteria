@@ -1,0 +1,21 @@
+
+<label> Nombre </label> <input type="text"  value="{{$producto->nombre}}" name="nombre" id="nombre">     <br>
+<label>Marca</label> <input type="text"  value="{{$producto->marca}}" name="marca" id="marca">  <br>
+<label>Stock</label><input type="number"  value="{{$producto->stock}}" name="stock" id="stock">  <br>
+<label>Precio </label><input type="number"  value="{{$producto->precio}}" name="precio" id="precio"> <br>
+{{$producto->imagen}}
+<label>Imagen</label><input type="file"  value="" name="imagen" id="imagen">    <br>
+<label>descripcion</label><input type="text"  value="{{$producto->descripcion}}" name="descripcion" id="descripcion"> <br>
+<label>categoria</label><input type="text" value="{{$producto->categoria}}"  name="categoria" id="categoria">   <br>
+<button type="submit">Registrar</button>
+
+
+{{$producto->codigo}} 
+    
+   
+    {{$producto->stock}}
+    
+    
+    {{$producto->descripcion}}
+    {{$producto->categoria}}
+    

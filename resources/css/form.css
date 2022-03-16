@@ -1,0 +1,93 @@
+
+body{
+    background:gainsboro;
+}
+
+h2{
+    text-align: center;
+    margin:2% 0% 2% 0%;
+    font-size: 30px;
+    
+}
+h3{
+    font-size: 24px;
+}
+
+ 
+input{
+    size-adjust:inherit;
+    border-color: gray;
+    border-radius: 0.01px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+ 
+}
+
+input:hover{
+    background: rgba(137, 43, 226, 0.109);
+   
+}
+
+ 
+ 
+.input-group{
+    display: block;
+    margin-bottom: 10%;
+  
+}
+
+.apellido_nombre{
+    display: block;
+}
+
+
+.DNI,.usuario{
+    width: 100%;
+    margin-bottom: 10px;
+    font-size:18px;
+    padding: 10px;
+    border-radius: 4px;
+    
+}
+
+.DNI,.usuario::-moz-focus-inner{
+    color: blueviolet;
+    
+}
+.input-group-data .DNI-Sexo{
+ font-size: 18px;   
+}
+#contenedor-color{
+    background-color: blueviolet;
+    height: 30px;
+    padding-top: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    z-index: 1;
+    position: relative;
+}
+#contenedor{
+    margin: auto;
+  
+    width: 700px;
+    padding: 1% 5% 3% 3%;
+    z-index: 2;
+    background-color:white;
+    border-radius: 4px;
+    box-shadow: 7px 13px 37px #000;
+}
+ 
+button{
+    background: blueviolet;
+    margin-top:20px;
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+    color:white;
+    height: 30px;
+    border: none;
+    }
+
+
+ 

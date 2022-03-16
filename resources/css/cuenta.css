@@ -1,0 +1,63 @@
+  .container-1 {
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+    }
+
+    i:focus, i:hover, ped:focus, ped:hover, di:focus, di:hover, det:focus, det:hover, a:hover, a:focus{
+        color:#fc5f5f;
+        text-decoration: none;
+    }
+    #op{
+      margin-right: 0px;
+    }
+
+    ul{
+      list-style-type: none;
+    }
+
+   
+
+    @media (max-width: 768px) {
+      .container-1 {
+        position:relative;
+        }
+      }
+      .col-sm-3{
+        margin: auto auto auto;
+      }
+
+      #inicio, #pedidos, #direcciones, #detalles, #finalizar{
+        background-color: aliceblue;
+        font-family: 'Poppins', sans-serif;
+        font-style:normal;
+        display: block;
+        border: solid #d4d3d3 0.5px;
+        padding: 10px 0 10px;
+        margin: 5px auto;
+      }
+      
+      .col-sm-8{
+        display: inline-block;
+        overflow: hidden;
+        padding-top:15px;
+      }
+
+      .col-sm-8 label{
+        font-weight:bold ;
+        display: block;
+      }
+
+      .col-sm-8 form .required {
+        color: red;
+        border: 0;
+       
+      }
+
+      .col-sm-8 .col p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+      }
+
+
+
+     
